@@ -6,3 +6,5 @@ The code is tested on Ubuntu 23.10 and Ubuntu 24.04, though I also expect it to 
 I tested it on an RME Fireface UFXIII, an internal audio card and a Behringer U-Phoria UMC22. 
 
 The code is based on the [audioPlayerRecorder](https://nl.mathworks.com/help/audio/ref/audioplayerrecorder-system-object.html). 
+
+I also added a Python implementation which is thanks to Baturalp. I made some small modifications to his code to make it better generalisable. I didnt test it well, since I did not have an external loudspeaker available. I think it should work though! 
