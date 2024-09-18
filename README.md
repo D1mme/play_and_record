@@ -8,4 +8,4 @@ I tested it on an RME Fireface UFX III, an internal audio card and a Behringer U
 The code is based on the [audioPlayerRecorder](https://nl.mathworks.com/help/audio/ref/audioplayerrecorder-system-object.html). 
 
 ## Python
-I also added a Python implementation which is thanks to Baturalp. The implementation is based on [sounddevice](https://pypi.org/project/sounddevice/). I made some small modifications to his code to make it better generalisable. I didnt test it well, since I did not have an external loudspeaker available. I think it should work though! 
+I also added a Python implementation which is thanks to Baturalp. The implementation is based on [sounddevice](https://pypi.org/project/sounddevice/). I made some small modifications to his code to make it better generalisable (it was originally written for the Fireface UFX III and including keyboard inputs). I didnt test it well, since I did not have an external loudspeaker available. I think it should work though! The original code at least worked :) 
